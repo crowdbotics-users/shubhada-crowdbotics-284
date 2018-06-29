@@ -8,6 +8,7 @@ from home.models import CustomText, HomePage
 def home(request):
     packages = [
 	{'name':'spirit', 'url': 'http://pypi.python.org/pypi/spirit/1.7.0'},
+	{'name':'spirit', 'url': 'http://pypi.python.org/pypi/spirit/1.7.0'},
 	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
 	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
 	{'name':'djoser', 'url': 'http://pypi.python.org/pypi/djoser/1.1.5'},

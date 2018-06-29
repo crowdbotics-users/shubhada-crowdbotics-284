@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
 	{'name':'djoser', 'url': 'http://pypi.python.org/pypi/djoser/1.1.5'},
 	{'name':'djoser', 'url': 'http://pypi.python.org/pypi/djoser/1.1.5'},
 	{'name':'django-stronghold', 'url': 'http://pypi.python.org/pypi/django-stronghold/0.3.0'},

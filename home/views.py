@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'django-analytical', 'url': 'http://pypi.python.org/pypi/django-analytical/2.4.0'},
 	{'name':'satchless', 'url': 'http://pypi.python.org/pypi/satchless/1.1.3'},
 	{'name':'satchless', 'url': 'http://pypi.python.org/pypi/satchless/1.1.3'},
 	{'name':'django-shop', 'url': 'http://pypi.python.org/pypi/django-shop/0.11.3'},

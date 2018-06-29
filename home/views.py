@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'django-oscar', 'url': 'http://pypi.python.org/pypi/django-oscar/1.5.1'},
 	{'name':'spirit', 'url': 'http://pypi.python.org/pypi/spirit/1.7.0'},
 	{'name':'spirit', 'url': 'http://pypi.python.org/pypi/spirit/1.7.0'},
 	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},

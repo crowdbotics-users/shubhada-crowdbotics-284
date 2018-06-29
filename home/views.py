@@ -8,6 +8,7 @@ from home.models import CustomText, HomePage
 def home(request):
     packages = [
 	{'name':'djoser', 'url': 'http://pypi.python.org/pypi/djoser/1.1.5'},
+	{'name':'djoser', 'url': 'http://pypi.python.org/pypi/djoser/1.1.5'},
 	{'name':'django-stronghold', 'url': 'http://pypi.python.org/pypi/django-stronghold/0.3.0'},
 	{'name':'django-stronghold', 'url': 'http://pypi.python.org/pypi/django-stronghold/0.3.0'},
 	{'name':'django-social-auth', 'url': 'http://pypi.python.org/pypi/django-social-auth/0.7.28'},
